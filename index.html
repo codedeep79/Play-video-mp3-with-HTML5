@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demo Video Player</title>
+<meta content="" name="description">
+<meta content="Video Player, Demo Video Player" name="keywords">
+<link rel="stylesheet" href="css/player.css" type="text/css">
+<script type="text/javascript" src="js/player.js"></script>
+</head>
+
+<body>
+<div id="player">
+	<div id="video-container">
+    	<div id="screen">
+        	<img src="image/pause.png" id="button-screen">
+        </div>
+    	<video poster="image/beethoven.jpg" id="video">
+            <source src="video/ThuguiElise.mp4">
+            <h4>It seems your browser doesn't support the HTML video tag. Please update it.</h4>
+		</video>
+    </div>
+    
+    <div id="progressBar-container">
+    	<div id="progressBar">
+        	
+        </div>
+    </div>
+    
+    <div id="buttons-container">
+    	<img src="image/pause.png" width="56" height="56" id="button-play"/>
+        <div id="time-field">
+        	0:00 / 0:00
+        </div>
+        <img src="image/sound.png" width="56" height="56" id="button-sound"/>
+        <div id="soundBar-container">
+        	<div id="soundBar">
+            
+            </div>
+        </div>
+        <img src="image/fullscreen.png" width="56" height="56" id="button-fullscreen"/>
+        
+    </div>
+</div>
+
+</body>
+</html>
